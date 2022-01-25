@@ -24,7 +24,7 @@ public class GameManager_Script : MonoBehaviour
     public void ReturnButton()
     {
         PlayerPrefs.SetInt("highscore", GameScore);
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Menu");
     }
 }
 
